@@ -10,7 +10,7 @@ zuul:
       path: /api/main/**
 
   host:
-    connect-timeout-millis: 4000
+    connect-timeout-millis: 5000
     socket-timeout-millis: 6000
   add-proxy-headers: true
   ribbon:
