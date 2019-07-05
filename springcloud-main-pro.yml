@@ -7,7 +7,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    #  在控制台显示数据表
+    #  在控制台显示数据
     show-sql: true
 
   redis:
