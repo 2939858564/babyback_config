@@ -1,0 +1,12 @@
+zuul:
+  routes:
+    springcloud-OAuth:
+      path: /api/auth/**
+      serviceId: springcloud-OAuth
+    springcloud-admin:
+      path: /api/admin/**
+      serviceId: springcloud-admin-biz
+    springcloud-main:
+      path: /api/main/**
+      serviceId: springcloud-main
+
