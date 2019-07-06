@@ -17,5 +17,5 @@ spring:
           merge:
             entity_copy_observer: allow
             
-service:
+server:
   ip: 42.159.4.66
