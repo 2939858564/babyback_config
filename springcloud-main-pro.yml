@@ -1,7 +1,7 @@
 spring:
   datasource:
-    url: jdbc:mysql://hahahoho.mysql.database.chinacloudapi.cn:3306/baby_back?useSSL=true&requireSSL=false&serverTimezone=UTC
-    username: ENC(f5BNh1AUMlCACAZVZUmHT4WnyuFALwx8XzZqR5MG03g=)
+    url: jdbc:mysql://gugugu.mysql.database.chinacloudapi.cn:3306/baby_back?useSSL=true&requireSSL=false&serverTimezone=UTC
+    username: jansona@gugugu
     password: ENC(vEJKeKNvw2YZvXSmCo+JR6HNJ7kLg6Mc)
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
