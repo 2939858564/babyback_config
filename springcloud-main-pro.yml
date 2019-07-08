@@ -11,9 +11,9 @@ spring:
     show-sql: true
 
   redis:
-    host: hahahoho.redis.cache.chinacloudapi.cn
+    host: gugugu.redis.cache.chinacloudapi.cn
     port: 6379
-    password: f9cgqnL0L0UwndMo+zLhBsT2Dx6s90gkQ2IyIntOExY=
+    password: rrOmlWrNSerY9amDRcdXeRsClNwD363FHye9OdFOaQI=
 
 
 jasypt:
