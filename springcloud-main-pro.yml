@@ -12,7 +12,7 @@ spring:
 
   redis:
     host: gugugu.redis.cache.chinacloudapi.cn
-    port: 6379
+    port: 6380
     password: rrOmlWrNSerY9amDRcdXeRsClNwD363FHye9OdFOaQI=
     sst: true
     timeout: 10000
