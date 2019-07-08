@@ -15,6 +15,7 @@ spring:
     port: 6379
     password: rrOmlWrNSerY9amDRcdXeRsClNwD363FHye9OdFOaQI=
     sst: true
+    timeout: 10000
 
 
 jasypt:
