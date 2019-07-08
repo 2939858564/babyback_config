@@ -11,10 +11,11 @@ spring:
     show-sql: true
 
   redis:
-    host: gugugu.redis.cache.chinacloudapi.cn
-    port: 6380
-    password: rrOmlWrNSerY9amDRcdXeRsClNwD363FHye9OdFOaQI=
-    sst: true
+ //   host: gugugu.redis.cache.chinacloudapi.cn
+    host: localhost
+    port: 6379
+ //   password: rrOmlWrNSerY9amDRcdXeRsClNwD363FHye9OdFOaQI=
+  //  ssl: true
     timeout: 10000
 
 
