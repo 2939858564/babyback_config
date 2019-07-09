@@ -9,6 +9,12 @@ spring:
       ddl-auto: update
     #  在控制台显示数据
     show-sql: true
+    properties:
+      hibernate:
+        event:
+          merge:
+            entity_copy_observer: allow
+
 
   redis:
  #   host: gugugu.redis.cache.chinacloudapi.cn
