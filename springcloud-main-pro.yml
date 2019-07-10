@@ -29,5 +29,3 @@ jasypt:
   encryptor:
     password: hahahohohehe
 
-server:
-  ip: 42.159.4.66
