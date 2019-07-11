@@ -17,8 +17,8 @@ zuul:
     eager-load:
       enabled: true
 ribbon:
-  ReadTimeout: 1200000
-  ConnectTimeout: 1200000
+  ReadTimeout: 600000
+  ConnectTimeout: 600000
   MaxAutoRetries: 1
   MaxAutoRetriesNextServer: 3
 hystrix:
@@ -29,4 +29,4 @@ hystrix:
           enabled: true
         isolation:
           thread:
-            timeoutInMilliseconds: 1200000
+            timeoutInMilliseconds: 2400000
