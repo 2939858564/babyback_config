@@ -10,15 +10,15 @@ zuul:
       path: /api/main/**
 
   host:
-    connect-timeout-millis: 60000
-    socket-timeout-millis: 60000
+    connect-timeout-millis: 600000
+    socket-timeout-millis: 600000
   add-proxy-headers: true
   ribbon:
     eager-load:
       enabled: true
 ribbon:
-  ReadTimeout: 120000
-  ConnectTimeout: 120000
+  ReadTimeout: 1200000
+  ConnectTimeout: 1200000
   MaxAutoRetries: 1
   MaxAutoRetriesNextServer: 3
 hystrix:
@@ -29,4 +29,4 @@ hystrix:
           enabled: true
         isolation:
           thread:
-            timeoutInMilliseconds: 120000
+            timeoutInMilliseconds: 1200000
